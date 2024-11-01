@@ -1,0 +1,160 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+label.mc_status.active {
+    background: rgb(0, 255, 0);
+	}
+label.mc_status {
+    font-size: 15px;
+    background: rgb(255, 0, 0);
+    font-weight: bold;
+	color:#fff;
+    padding: 5px;
+    vertical-align: text-bottom;
+    border-radius: 5px;
+	cursor:none;
+}
+p.mc_api_error {
+    color: red;
+    display: inline-block;
+    padding: 5px;
+    background: rgba(255,100,100,0.5);
+}
+.wpnlc_tg_right, .wpnlc_tg_left{
+	width:50%;
+	float:left;
+	}
+.newsletter_preview_container{
+	min-height:500px;
+	}
+.wpnlc_template_tabs .CodeMirror, .wpnlc_template_tabs iframe#template_preview{
+	 width:820px;
+	 min-height:500px;
+	 }
+.wpnlc_tab .CodeMirror{
+	 min-height:800px;
+	 }
+.wpnlc_table_half{
+	width:50%;
+	float:left;
+	clear:none;}
+.postbox span.note {
+    display: inline-block;
+    font-size: small;
+    font-style: italic;
+    width: 100%;
+}
+.settings_section_divider td{
+	border-bottom:2px solid;
+	}	
+#loading_progress {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(255,255,255,0.8 );
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+#loading_progress img.loading_image {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%);
+	background: transparent;
+	border: none;
+}
+.template_preview_thumb{
+	height:180px;
+	width:120px;
+	}
+#wpnlc_mailchimp_api_key{
+	width: 40%;
+    padding: 3px 5px;
+    font-size: 18px;
+    font-weight: bold;
+	text-align:left;
+	}
+#wpnlc_template_html_preview_tabs .tab_content_wrap{
+	min-height: 200px;
+    background: #fff;
+    border: 1px solid;
+	}
+span.template_update{
+	display:none;
+	}
+li.select_template_thumb{
+	float: left;
+    display: block;
+    margin: 2px;
+    border: 1px dotted;
+    width: 32%;
+    text-align: center;
+	opacity:0.7;
+	}
+li.select_template_thumb div.template_thumb_img	{
+	height:180px;
+	cursor:pointer;
+	}
+li.select_template_thumb.active{
+opacity:1;
+}
+#wpnlc_template_html_preview_tabs ul li.tabs_control, #wpnlc_template_create_n_update_tabs ul li.tabs_control, .html_n_preview ul li.tabs_control {
+    display: inline-block;
+    padding: 8px;
+    font-size: 14px;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> 7f0d16fb11fbea98f0224d699ee78624dc0504d4
+    background: rgb(241, 241, 241);
+    border: 1px solid #000;
+    margin: 0;
+    cursor: pointer;
+	border-bottom: 0;
+}
+<<<<<<< HEAD
+#wpnlc_template_html_preview_tabs ul li.tabs_control a, #wpnlc_template_create_n_update_tabs ul li.tabs_control a, .html_n_preview ul li.tabs_control a {
+	color: #000;
+}
+
+#wpnlc_template_html_preview_tabs ul li.tabs_control.active, #wpnlc_template_create_n_update_tabs ul li.tabs_control.active, .html_n_preview ul li.tabs_control.active{
+	 background: rgb(0, 133, 186);
+	 color: #fff;
+}
+
+#wpnlc_template_html_preview_tabs ul li.tabs_control.active a, #wpnlc_template_create_n_update_tabs ul li.tabs_control.active a, .html_n_preview ul li.tabs_control.active a{
+	 color: #fff;
+}
+
+
+#wpnlc_template_html_preview_tabs ul, #wpnlc_template_create_n_update_tabs ul {
+=======
+
+#wpnlc_template_html_preview_tabs ul li.tabs_control a {
+	color: #000;
+}
+
+#wpnlc_template_html_preview_tabs ul li.tabs_control.active{
+	 background: rgb(0, 133, 186);
+	 color: #fff;
+}
+
+#wpnlc_template_html_preview_tabs ul li.tabs_control.active a{
+	 color: #fff;
+}
+
+#wpnlc_template_html_preview_tabs ul {
+>>>>>>> 7f0d16fb11fbea98f0224d699ee78624dc0504d4
+	list-style: none;
+	display: inline-block;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 7f0d16fb11fbea98f0224d699ee78624dc0504d4
